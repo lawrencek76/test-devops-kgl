@@ -1,9 +1,7 @@
 name: Deploy ASP.NET Core app to Azure Web App 
 
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
 
 env:
   AZURE_WEBAPP_NAME: "test-devops-kgl"    # set this to your application's name
